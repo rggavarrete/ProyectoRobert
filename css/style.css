@@ -10,22 +10,22 @@
 	width: 100%;
 	height: auto;
 	background-repeat: no-repeat;
-	background-image: url('images/Background.jpg');
+	background-image: url('../images/Background.jpg');
 }
 
 #background_simple{
 	width: 100%;
 	height: auto;
 	background-repeat: no-repeat;
-	background-image: url('images/fondo_simple.jpg');
+	background-image: url('../images/fondo_simple.jpg');
 
 }
 
 #logo{
 	margin-left: 20%;
 	margin-top: 5%;
-	max-width: 120px;
-	width: 90%;
+	max-width: 110px;
+	width: 80px;
 
 }
 
