@@ -14,12 +14,34 @@ img {
     height: auto;
 }
 </style>
+	<style> 
+input[type=text] {
+    max-width: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
 </head>
 <body id="background_simple">
 	
 	<!--<img src="images/tour.png" width="340"/>-->
 	<section><a href="index2.html"><img src="images/salud/1.png"></a></section>
-
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
 
    <div style="width:auto; height:558px; overflow:auto;">
      <table cellspacing="0" cellpadding="1" border="1" >
